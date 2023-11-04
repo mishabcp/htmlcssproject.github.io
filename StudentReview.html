@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap Academy | courses</title>
+    <link rel="icon" href="tapfavicon.png">
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .fs1{
+            display: flex;
+            background-color: #88aeef;
+            border: none;
+            font-size: large;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 20px;
+            padding: 20px;
+        }
+        .link {
+            margin-left: 20px;
+        }
+        .left-links {
+            order: 1;
+        }
+        .phno {
+            margin-right: auto;
+        }
+        .right-links {
+            order: 2;
+            display: flex;
+            align-items: center;
+        }
+        .fs1img {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+            transition: transform 0.2s;
+        }
+        .fs1img:hover {
+            transform: scale(1.1);
+        }
+        .pageslink {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px; 
+            font-size: large;
+            margin-right: 50px;
+        }
+
+        .pageslink a {
+            padding: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .pageslink img {
+            margin-right: 500px; 
+        }
+        .hovereffect {
+            transition: transform 0.2s;
+        }
+        .hovereffect:hover {
+            transform: scale(1.1);
+        }
+        .headerhovereffect {
+            transition: font-size 0.3s;
+        }
+        .headerhovereffect:hover {
+            font-size:120%;
+            color: blue;
+        }
+        .footer {
+            background-color: #170e47;
+            font-size: large;
+            color: #eeeff1;
+            background-image: linear-gradient(to top,  #7ab6ff, #004785);
+        }
+        .linkcolor { 
+            color: #f7f7f7;
+            transition: font-size 0.3s;
+        }
+        .linkcolor:hover {
+            font-size:120%;
+            color: rgb(255, 252, 252);
+        }
+        .student {
+            border: none;
+            align-content: center;
+            display: flex;
+            justify-content: center;
+        }
+        .student-table {
+            background: linear-gradient(to bottom right, #8ab5ea, #2992ee);
+            width: 28%;
+            display: inline-block;
+            vertical-align: top;
+            border: 1px solid #d9eff0;
+            margin: 15px; 
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
+        }
+        table.student-table {
+            transition: transform 0.3s;
+        }
+        table.student-table:hover {
+            transform: scale(1.05);
+        }
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            margin: 10px;
+        }
+        .student-name {
+        font-weight: bold;
+            margin: 10px;
+        }
+        .student-review {
+            margin: 10px;
+            padding: 10px;
+        }
+        .frame {
+            border-radius: 8px;
+            border-color: rgb(14, 86, 230);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            margin: 12px;
+        }
+        .footerhovereffect {
+            transition: transform 0.2s;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .footerhovereffect:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header class="fs1">
+        <div class="left-links">
+            <a href="tel:08069878321" class="phno">
+                <img src="phonenoicon.png" alt="Phone Icon" width="18" height="18" class="fs1img">
+                <small>&nbsp;&nbsp;&nbsp;08069878321</small>
+            </a>
+        </div>
+        <div class="right-links">
+            <a href="mailto:hello@thetapacademy.com" target="_blank" class="link">
+                <img src="email.png" alt="Email Icon" height="14" width="26" class="fs1img">
+                <small>&nbsp;&nbsp;&nbsp;hello@thetapacademy.com</small>
+            </a>
+            <a href="https://www.instagram.com/tapacademy_online/" target="_blank" class="link">
+                <img src="insta.png" alt="Instagram Icon" width="18" height="18" class="fs1img">
+            </a>
+            <a href="https://www.youtube.com/@TAPACADEMY" target="_blank" class="link">
+                <img src="ytube.png" alt="YouTube Icon" width="18" height="17" class="fs1img">
+            </a>
+        </div>
+    </header>    
+    <br>
+    <br>
+    <br>
+    <div class="pageslink">
+        <a href="index.html">
+            <img src="taplogo.webp" alt="TAPACADEMY" width="170" height="85" class="hovereffect">
+        </a>
+        <a href="index.html" class="headerhovereffect">Home</a>
+        <a href="courses.html" class="headerhovereffect">Courses</a>
+        <a href="StudentReview.html" class="headerhovereffect">Student Review</a>
+        <a href="Placement.html" class="headerhovereffect">Placement</a>
+        <a href="ContactUs.html" class="headerhovereffect">Contact Us</a>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br><br><br>
+    <center>
+        <h1>Tap Academy Students Review</h1><br>
+        <h3>Our complete online training has made students learn to code anytime anywhere & got placed in various Companies. <br>
+            Here are our few students placed at various companies :</h3><br><br>
+    </center>
+    
+        <div class="student">
+            <table class="student-table">
+                <tr>
+                    <td>
+                        <img src="profileicon.png" alt="Student 1" class="profile-pic">
+                        <p class="student-name">Kushal Kumar</p>
+                        <p class="student-review">
+                            Hi, I’m Kushal. I’m pursuing my engineering in information science stream. A few months ago, me and my friend thought of learning a technical skill, and we attended the demo workshop of Tap Academy, which was a great experience learning a new skill in augmented reality. The great instructor who laid the foundation of the skill, Rohit sir. After learning the complete skills, I gained a 5-star badge on HackerRank platform and also cleared 2 company interviews, though I’m still in the 4th year. I suggest to my friends to enroll in Tap Academy.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <table class="student-table">
+                <tr>
+                    <td>
+                        <img src="profileicon.png" alt="Student 2" class="profile-pic">
+                        <p class="student-name">Keerthan</p>
+                        <p class="student-review">
+                            It was a good experience with Tap Academy. I have learned coding from scratch with zero knowledge, but now I know the basics of web programming languages. It was very helpful for me to add to my resume. Thanks to Rohit sir, who is the best trainer I have come across, and also Megha mam and everyone from Tap Academy who helped in this training. It's a great journey so far, and I want to be perfect in this before the completion of the course.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="student">
+            <table class="student-table">
+                <tr>
+                    <td>
+                        <img src="profileicon.png" alt="Student 1" class="profile-pic">
+                        <p class="student-name">Ekta Gridhar</p>
+                        <p class="student-review">
+                            Getting Enrolled in tap academy is one my best
+                            decision . Clear understanding of basics from lms,
+                            consistent practice with live class, daily assignment
+                            gives boost,24 hrs doubt solving assistance from
+                            mentor,mock test every Friday and Saturday helps in
+                            self evaluation.For me till now it's been a great
+                            journey and daily I am learning something new and
+                            improving myself.I have no more fear of not getting
+                            a job because after 2 months with tap academy I am
+                            getting various offers.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <table class="student-table">
+                <tr>
+                    <td>
+                        <img src="profileicon.png" alt="Student 2" class="profile-pic">
+                        <p class="student-name">Preeti bhat</p>
+                        <p class="student-review">
+                            Being from an IT background but still felt some
+                            missing pieces which TapAcademy has been filling.
+                            I have never felt such kind of experience anywhere.
+                            From explaining things in visual forms to bringing
+                            countless placement offers for us. And my basic is
+                            so strong now. College definitely has a curriculum
+                            and they have to follow it but here they are so
+                            focused on building our basics, personality and
+                            everything. Best experience honestly.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="student">
+            <table class="student-table">
+                <tr>
+                    <td>
+                        <img src="profileicon.png" alt="Student 1" class="profile-pic">
+                        <p class="student-name">Venkatesh h</p>
+                        <p class="student-review">
+                            Hii, Greetings for the day. I am venkatesha T H. I
+          joined full stack web development course in Tap
+          Academy. My experience with the Tap Academy is good
+           and best to my knowledge. Trainers at Tap Academy
+           are good in knowledge, experienced and the way of
+           teaching the concept is clear and excellent. They
+           clarify the doubts clearly as soon as possible. They
+           helped me to improve my skillset. Now I gained the
+          confidence to attend the interviews. Thank you for
+          the whole team of Tap Academy for your support.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <table class="student-table">
+                <tr>
+                    <td>
+                        <img src="profileicon.png" alt="Student 2" class="profile-pic">
+                        <p class="student-name"> Venu prasad</p>
+                        <p class="student-review">
+                            I feel very lucky to join this institute and i got
+          so much experience and knowledge by being student.
+          The live classes helped me a lot for understanding
+          concepts, analytical logics better and most simplistic
+          way. And helped me a lot for getting interview calls,
+          got so much experience and knowledge by attending
+          the interviews.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+    <br><br><br>
+    <center>
+        <h1>Your Dream Job is just a Tap Away</h1>
+    </center>
+    <br><br><br>
+    <table align="center">
+        <tr>
+            <td>
+                <iframe allowfullscreen title="vimeo Video Player" src="https://player.vimeo.com/video/637372330?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0&amp;h=24002a87d5#t=" width="300" height="280" class="frame"></iframe>
+            </td>
+            <td>
+                <iframe allowfullscreen title="vimeo Video Player" src="https://player.vimeo.com/video/637372024?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0&amp;h=1f6956d5b5#t=" width="300" height="280" class="frame"></iframe>
+            </td>
+            <td>
+                <iframe allowfullscreen title="vimeo Video Player" src="https://player.vimeo.com/video/637371830?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0&amp;h=be985fd858#t=" width="300" height="280" class="frame"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <iframe allowfullscreen title="vimeo Video Player" src="https://player.vimeo.com/video/637373616?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0&amp;h=92e2188695#t=" width="300" height="280" class="frame"></iframe>
+            </td>
+            <td>
+                <iframe allowfullscreen title="vimeo Video Player" src="https://player.vimeo.com/video/637373703?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0&amp;h=70c64af9cb#t=" width="300" height="280" class="frame"></iframe>
+            </td>
+            <td>
+                <iframe allowfullscreen title="vimeo Video Player" src="https://player.vimeo.com/video/637373791?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0&amp;h=46104f1a58#t=" width="300" height="280" class="frame"></iframe>
+            </td>
+        </tr><tr>
+            <td>
+                <iframe allowfullscreen title="vimeo Video Player" src="https://player.vimeo.com/video/637373032?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0&amp;h=eaa3d19385#t=" width="300" height="280" class="frame"></iframe>
+            </td>
+            <td>
+                <iframe allowfullscreen title="vimeo Video Player" src="https://player.vimeo.com/video/637373894?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0&amp;h=f786219ae7#t=" width="300" height="280" class="frame"></iframe>
+            </td>
+            <td>
+                <iframe allowfullscreen title="vimeo Video Player" src="https://player.vimeo.com/video/637373544?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0&amp;h=4d50675ebf#t=" width="300" height="280" class="frame"></iframe>
+            </td>
+        </tr>
+    </table>
+    <br><br><br>
+    <div class="footer">
+        <br><br><br>
+        <center>
+            <a href="https://www.youtube.com/channel/UCvT21bzLRHrnAc-F1SRqRSw">
+                <img src="ytube.png" alt="" height="32" width="30" class="footerhovereffect">
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <a href="https://www.facebook.com/thetapacademy">
+                <img src="fb.png" alt="" height="30" width="30" class="footerhovereffect">
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <a href="https://www.linkedin.com/company/thetapacademy/">
+                <img src="in.png" alt="" height="30" width="30" class="footerhovereffect">
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <a href="https://www.instagram.com/tapacademy_online">
+                <img src="insta.png" alt="" height="30" width="30" class="footerhovereffect">
+            </a>
+                          
+        <br><br><br>
+        <a href="index.html" class="linkcolor">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="courses.html" class="linkcolor">Courses</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="StudentReview.html" class="linkcolor">Student Review</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Placement.html" class="linkcolor">Placement</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="ContactUs.html" class="linkcolor">Contact Us</a>
+        <br><br>
+        <h3>Copyright © 2021 | Tap Academy</h3>
+        </center><br><br>
+    </div>
+</body>
+</html>
